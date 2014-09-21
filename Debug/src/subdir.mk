@@ -5,16 +5,19 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/BlendingImages.cpp \
+../src/BrightnessContrast.cpp \
 ../src/CornerHarris.cpp \
 ../src/LoadAndSaveImage.cpp 
 
 OBJS += \
 ./src/BlendingImages.o \
+./src/BrightnessContrast.o \
 ./src/CornerHarris.o \
 ./src/LoadAndSaveImage.o 
 
 CPP_DEPS += \
 ./src/BlendingImages.d \
+./src/BrightnessContrast.d \
 ./src/CornerHarris.d \
 ./src/LoadAndSaveImage.d 
 
